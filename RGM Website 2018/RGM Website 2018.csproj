@@ -95,10 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about4.html" />
-    <Content Include="Clients.html" />
     <Content Include="contact2.html" />
     <Content Include="gallery_col_4.html" />
-    <Content Include="index_mp_fullscreen_video_background.html" />
+    <Content Include="index.html" />
     <Content Include="login_register.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -112,11 +111,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="portfolio_full_width_gutter_col_3.html" />
-    <Content Include="portfolio_single_featured_video2.html" />
-    <Content Include="pricing1.html" />
-    <Content Include="pricing2.html" />
-    <Content Include="service2.html" />
+    <Content Include="clients.html" />
+    <Content Include="film.html" />
+    <Content Include="creative.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
