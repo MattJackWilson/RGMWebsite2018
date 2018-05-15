@@ -644,8 +644,7 @@
     <Content Include="php\contact.php" />
     <Content Include="php\inc\MCAPI.class.php" />
     <Content Include="php\request_call.php" />
-    <Content Include="php\reservation.php" />
-    <Content Include="php\subscribe.php" />
+    <Content Include="php\mailtest.php" />
     <Content Include="assets\images\favicons\manifest.json" />
     <Content Include="assets\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
     <Content Include="assets\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
@@ -776,6 +775,7 @@
     <Content Include="assets\scss\_typography.scss" />
     <Content Include="assets\scss\_video_box.scss" />
     <Content Include="assets\scss\_widgets.scss" />
+    <Content Include="php\subscribe.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
