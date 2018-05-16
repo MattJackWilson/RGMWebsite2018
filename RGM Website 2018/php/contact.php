@@ -43,7 +43,7 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$to = 'matt@richardgoldmedia.com';
+	$to = 'matthewwilson101@hotmail.com';
 	$subject = 'Test';
 
 	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
@@ -56,7 +56,7 @@
 	if (mail ($to, $subject, $body, $headers)) {
 		$result .= '<div class="alert alert-success alert-dismissible" role="alert">';
  		$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-		$result .= 'Thank You! I will be in touch';
+		$result .= 'Thank You! We will be in touch';
 		$result .= '</div>';
 
 		echo $result;
@@ -70,3 +70,5 @@
 	$result .= '</div>';
 
 	echo $result;
+
+	?>
