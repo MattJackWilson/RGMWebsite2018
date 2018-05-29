@@ -111,6 +111,8 @@
     <Content Include="assets\images\client-logo-dark-3.png" />
     <Content Include="assets\images\client-logo-dark-4.png" />
     <Content Include="assets\images\client-logo-dark-5.png" />
+    <Content Include="assets\images\Clients\BTS\Malaria No More BTS.png" />
+    <Content Include="assets\images\Clients\BTS\Trainline BTS.png" />
     <Content Include="assets\images\Clients\Google.jpg" />
     <Content Include="assets\images\Clients\Knight_Frank_Logo.jpg" />
     <Content Include="assets\images\Clients\Sunseeker.png" />
@@ -352,7 +354,8 @@
     <Content Include="assets\images\gallery\thumbnail\full_8\8.jpg" />
     <Content Include="assets\images\gallery\thumbnail\full_8\9.jpg" />
     <Content Include="assets\images\gallery_bg.jpg" />
-    <Content Include="assets\images\Headers\Film.jpg" />
+    <Content Include="assets\images\headers\about_us.jpg" />
+    <Content Include="assets\images\headers\film.jpg" />
     <Content Include="assets\images\Photos\Yacht 1.jpg" />
     <Content Include="assets\images\Photos\Yacht 3.jpg" />
     <Content Include="assets\images\Photos\Yacht 2.jpg" />
@@ -776,6 +779,7 @@
     <Content Include="clients.html" />
     <Content Include="film.html" />
     <Content Include="creative.html" />
+    <Content Include="termsandconditions.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
