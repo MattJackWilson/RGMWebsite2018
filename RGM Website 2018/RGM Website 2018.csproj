@@ -99,6 +99,17 @@
     <Content Include="assets\css\colors\default.css" />
     <Content Include="assets\css\style-rtl.css" />
     <Content Include="assets\css\style.css" />
+    <Content Include="assets\images\about\freelance\callum_kerr.png" />
+    <Content Include="assets\images\about\freelance\chris_mills.png" />
+    <Content Include="assets\images\about\freelance\chuck_douglas.png" />
+    <Content Include="assets\images\about\freelance\lisa_ronaghan.png" />
+    <Content Include="assets\images\about\freelance\mikhail_nekrasov.png" />
+    <Content Include="assets\images\about\freelance\tom_nowell.png" />
+    <Content Include="assets\images\about\freelance\greg_woodward.png" />
+    <Content Include="assets\images\about\freelance\nebras_jamali.png" />
+    <Content Include="assets\images\about\freelance\james_blackburn.png" />
+    <Content Include="assets\images\about\freelance\rich_mayes2.png" />
+    <Content Include="assets\images\about\freelance\rich_mayes.png" />
     <Content Include="assets\images\about_bg.jpg" />
     <Content Include="assets\images\blog_bg.jpg" />
     <Content Include="assets\images\client-logo-1.png" />
@@ -113,14 +124,14 @@
     <Content Include="assets\images\client-logo-dark-5.png" />
     <Content Include="assets\images\Clients\BTS\Malaria No More BTS.png" />
     <Content Include="assets\images\Clients\BTS\Trainline BTS.png" />
-    <Content Include="assets\images\Clients\Google.jpg" />
-    <Content Include="assets\images\Clients\Knight_Frank_Logo.jpg" />
-    <Content Include="assets\images\Clients\Sunseeker.png" />
-    <Content Include="assets\images\Clients\Publicis-Worldwide-New-Logo-Design.png" />
-    <Content Include="assets\images\Clients\Radisson-Blu-Logo.png" />
-    <Content Include="assets\images\Clients\Seychelles.jpg" />
-    <Content Include="assets\images\Clients\tottenham_hotspur_foundation.png" />
+    <Content Include="assets\images\Clients\publicis.png" />
     <Content Include="assets\images\Clients\trainline.png" />
+    <Content Include="assets\images\Clients\tottenham_hotspur_foundation.png" />
+    <Content Include="assets\images\Clients\radisson_blu.png" />
+    <Content Include="assets\images\Clients\knight_frank.png" />
+    <Content Include="assets\images\Clients\google-logo.png" />
+    <Content Include="assets\images\Clients\Sunseeker.png" />
+    <Content Include="assets\images\Clients\Seychelles.jpg" />
     <Content Include="assets\images\contact_bg.jpg" />
     <Content Include="assets\images\faq_bg.jpg" />
     <Content Include="assets\images\favicons\android-icon-144x144.png" />
@@ -401,16 +412,6 @@
     <Content Include="assets\images\landing\windows-store-icon.png" />
     <Content Include="assets\images\map-icon.png" />
     <Content Include="assets\images\next-light.png" />
-    <Content Include="assets\images\photography\architecture.jpg" />
-    <Content Include="assets\images\photography\image1.jpg" />
-    <Content Include="assets\images\photography\image2.jpg" />
-    <Content Include="assets\images\photography\image3.jpg" />
-    <Content Include="assets\images\photography\image4.jpg" />
-    <Content Include="assets\images\photography\image5.jpg" />
-    <Content Include="assets\images\photography\image6.jpg" />
-    <Content Include="assets\images\photography\landscape.jpg" />
-    <Content Include="assets\images\photography\lifestyle.jpg" />
-    <Content Include="assets\images\photography\portrait.jpg" />
     <Content Include="assets\images\portfolio\grid-portfolio1.jpg" />
     <Content Include="assets\images\portfolio\grid-portfolio2.jpg" />
     <Content Include="assets\images\portfolio\grid-portfolio3.jpg" />
@@ -447,15 +448,6 @@
     <Content Include="assets\images\rp-2.jpg" />
     <Content Include="assets\images\rp-3.jpg" />
     <Content Include="assets\images\rp-4.jpg" />
-    <Content Include="assets\images\screenshots\agency.jpg" />
-    <Content Include="assets\images\screenshots\finance.jpg" />
-    <Content Include="assets\images\screenshots\landing.jpg" />
-    <Content Include="assets\images\screenshots\main_demo.jpg" />
-    <Content Include="assets\images\screenshots\one_page.jpg" />
-    <Content Include="assets\images\screenshots\photography.jpg" />
-    <Content Include="assets\images\screenshots\portfolio.jpg" />
-    <Content Include="assets\images\screenshots\restaurant.jpg" />
-    <Content Include="assets\images\screenshots\shop.jpg" />
     <Content Include="assets\images\section-1.jpg" />
     <Content Include="assets\images\section-10.jpg" />
     <Content Include="assets\images\section-11.jpg" />
@@ -785,7 +777,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="assets\images\about\team\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
