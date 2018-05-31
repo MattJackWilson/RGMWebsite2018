@@ -110,6 +110,8 @@
     <Content Include="assets\images\about\freelance\james_blackburn.png" />
     <Content Include="assets\images\about\freelance\rich_mayes2.png" />
     <Content Include="assets\images\about\freelance\rich_mayes.png" />
+    <Content Include="assets\images\about\team\ag.jpg" />
+    <Content Include="assets\images\about\team\mw2.jpg" />
     <Content Include="assets\images\about_bg.jpg" />
     <Content Include="assets\images\blog_bg.jpg" />
     <Content Include="assets\images\client-logo-1.png" />
@@ -365,8 +367,13 @@
     <Content Include="assets\images\gallery\thumbnail\full_8\8.jpg" />
     <Content Include="assets\images\gallery\thumbnail\full_8\9.jpg" />
     <Content Include="assets\images\gallery_bg.jpg" />
+    <Content Include="assets\images\headers\about_img_1885.jpeg" />
     <Content Include="assets\images\headers\about_us.jpg" />
-    <Content Include="assets\images\headers\film.jpg" />
+    <Content Include="assets\images\headers\clients_cw.jpeg" />
+    <Content Include="assets\images\headers\contact_img_2542.jpeg" />
+    <Content Include="assets\images\headers\creative_img_2672.jpeg" />
+    <Content Include="assets\images\headers\photography_DSC8839.jpeg" />
+    <Content Include="assets\images\headers\scores.jpeg" />
     <Content Include="assets\images\Photos\Yacht 1.jpg" />
     <Content Include="assets\images\Photos\Yacht 3.jpg" />
     <Content Include="assets\images\Photos\Yacht 2.jpg" />
@@ -760,6 +767,35 @@
     <Content Include="assets\scss\_video_box.scss" />
     <Content Include="assets\scss\_widgets.scss" />
     <Content Include="php\subscribe.php" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-Black.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-BlackOblique.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-Book.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-BookOblique.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-Heavy.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-HeavyOblique.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-Light.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-LightOblique.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-Medium.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-MediumOblique.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-Oblique.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirLTStd-Roman.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-Bold.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-BoldCn.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-BoldCnIt.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-Cn.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-CnIt.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-Demi.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-DemiCn.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-DemiCnIt.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-DemiIt.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-HeavyCn.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-HeavyCnIt.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-It.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-MediumCn.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-MediumCnIt.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-Regular.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-UltLtCn.otf" />
+    <Content Include="assets\lib\avenir-font\AvenirNextLTPro-UltLtCnIt.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -777,9 +813,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\images\about\team\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -905,10 +905,14 @@ blockquote {
   padding: 0;
 }
 
+
 .film-text {
     text-align:center;
     font-size:15px;
+    font-family: 'Avenir LT Std', sans-serif;
+    color: #000;
 }
+
 
 .font-alt {
   font-family: "Roboto Condensed", sans-serif;
@@ -939,11 +943,39 @@ blockquote {
   margin: 0 0 70px;
 }
 
+.about-story-title {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.about-story {
+  line-height: 26px;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .about-story {
+        line-height: 19px;
+    }
+}
+
+.about-subtitle {
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: #111;
+  margin: -70px 0 40px;
+}
+
 .module-subtitle {
   text-align: center;
   font-size: 16px;
   color: #111;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .module-icon {
