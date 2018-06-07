@@ -112,6 +112,7 @@
     <Content Include="assets\images\about\freelance\rich_mayes.png" />
     <Content Include="assets\images\about\team\ag.jpg" />
     <Content Include="assets\images\about\team\mw2.jpg" />
+    <Content Include="assets\images\about\team\Zaki.jpg" />
     <Content Include="assets\images\about_bg.jpg" />
     <Content Include="assets\images\blog_bg.jpg" />
     <Content Include="assets\images\client-logo-1.png" />
@@ -186,6 +187,7 @@
     <Content Include="assets\images\gallery\big\7%29 RGM Luxury Export - 082.jpg" />
     <Content Include="assets\images\gallery\big\8%29 RGM Luxury Export - 029.jpg" />
     <Content Include="assets\images\gallery\big\9%29 RGM Luxury Export - 127.jpg" />
+    <Content Include="assets\images\gallery\big\RGM Luxury Export - 037.jpg" />
     <Content Include="assets\images\gallery\thumbnail\1%29 _DSC0056.jpeg" />
     <Content Include="assets\images\gallery\thumbnail\10%29 IMG_2349.jpeg" />
     <Content Include="assets\images\gallery\thumbnail\12%29 MY Herculina 195 - _MG_0211.jpeg" />
@@ -238,6 +240,8 @@
     <Content Include="assets\images\landing\why_choose.png" />
     <Content Include="assets\images\landing\why_choose_bg.png" />
     <Content Include="assets\images\landing\windows-store-icon.png" />
+    <Content Include="assets\images\logo\GC Logo Full Gray.png" />
+    <Content Include="assets\images\logo\GC Marque Only Gray.png" />
     <Content Include="assets\images\logo\rgm-white.png" />
     <Content Include="assets\images\map-icon.png" />
     <Content Include="assets\images\next-light.png" />
@@ -459,7 +463,6 @@
     <Content Include="php\inc\MCAPI.class.php" />
     <Content Include="php\request_call.php" />
     <Content Include="php\mailtest.php" />
-    <Content Include="assets\images\favicons\manifest.json" />
     <Content Include="assets\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
     <Content Include="assets\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
     <Content Include="assets\lib\bootstrap\dist\css\bootstrap.css.map" />
@@ -619,6 +622,7 @@
     <Content Include="assets\lib\avenir-font\AvenirNextLTPro-Regular.otf" />
     <Content Include="assets\lib\avenir-font\AvenirNextLTPro-UltLtCn.otf" />
     <Content Include="assets\lib\avenir-font\AvenirNextLTPro-UltLtCnIt.otf" />
+    <Content Include="assets\images\favicons\manifest.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
