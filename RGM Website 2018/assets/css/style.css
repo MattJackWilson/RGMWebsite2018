@@ -637,9 +637,10 @@ a,
 .home-footer {
   position: absolute;
   font-family: 'Avenir LT Std', sans-serif;
-  bottom: -5px;
-  left: 90px;
+  float: left;
+  bottom: 10px;
   z-index: 1;
+  width: 100%;
 }
 
 .landing-reason {
@@ -932,7 +933,6 @@ blockquote {
 
 .font-serif {
   font-family: Volkhov, "Times New Roman", sans-serif;
-  font-style: italic;
 }
 
 .large-text {
@@ -1341,7 +1341,7 @@ General Styles - Owlcarousel
     height: 40px;
     width: 55px;
     float: left;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left: 20px;
   }
 
@@ -1452,6 +1452,17 @@ General Styles - Owlcarousel
   width: 100%;
   z-index: 0;
   background-size: cover;
+}
+
+.film-section {
+  position: relative;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  z-index: 0;
+  background-size: cover;
+  padding: 250px 0;
 }
 
 .titan-title-size-1 {
