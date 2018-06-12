@@ -111,6 +111,7 @@
     <Content Include="assets\images\about\freelance\rich_mayes2.png" />
     <Content Include="assets\images\about\freelance\rich_mayes.png" />
     <Content Include="assets\images\about\team\ag.jpg" />
+    <Content Include="assets\images\about\team\rg.jpg" />
     <Content Include="assets\images\about\team\mw2.jpg" />
     <Content Include="assets\images\about\team\Zaki.jpg" />
     <Content Include="assets\images\Clients\BTS\Malaria No More BTS.png" />
@@ -174,6 +175,7 @@
     <Content Include="assets\images\gallery\big\8%29 RGM Luxury Export - 029.jpg" />
     <Content Include="assets\images\gallery\big\9%29 RGM Luxury Export - 127.jpg" />
     <Content Include="assets\images\gallery\big\RGM Luxury Export - 037.jpg" />
+    <Content Include="assets\images\gallery\big\_DSC8839.jpg" />
     <Content Include="assets\images\gallery\thumbnail\1%29 _DSC0056.jpeg" />
     <Content Include="assets\images\gallery\thumbnail\10%29 IMG_2349.jpeg" />
     <Content Include="assets\images\gallery\thumbnail\12%29 MY Herculina 195 - _MG_0211.jpeg" />
@@ -197,12 +199,12 @@
     <Content Include="assets\images\gallery\thumbnail\8%29 RGM Luxury Export - 029.jpeg" />
     <Content Include="assets\images\gallery\thumbnail\9%29 RGM Luxury Export - 127.jpeg" />
     <Content Include="assets\images\headers\about_img_1885.jpeg" />
-    <Content Include="assets\images\headers\about_us.jpg" />
     <Content Include="assets\images\headers\clients_cw.jpeg" />
     <Content Include="assets\images\headers\contact_img_2542.jpeg" />
     <Content Include="assets\images\headers\creative_img_2672.jpeg" />
     <Content Include="assets\images\headers\about-imageedit_6_9928280994.jpg" />
     <Content Include="assets\images\headers\creative-imageedit_8_6603103447.jpg" />
+    <Content Include="assets\images\headers\creativehd-img_2672.jpg" />
     <Content Include="assets\images\headers\Photography -Panakeia 2.jpg" />
     <Content Include="assets\images\headers\Photography -Panakeia.jpg" />
     <Content Include="assets\images\headers\photography-imageedit_4_9193930350.jpg" />

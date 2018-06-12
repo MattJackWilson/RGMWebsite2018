@@ -168,10 +168,18 @@ a,
   background-size: cover;
 }
 
+.mod-pic2 {
+  position: relative;
+  padding: 150px 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 .module,
 .module-small {
   position: relative;
-  padding: 50px 0px;
+  padding: 50px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -325,7 +333,24 @@ a,
 
 .parallax-bg {
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover, contain;
+  overflow: auto;
+  min-width: 100% !important;
+  max-height: 50%;
+  /* max-height: 80%;
+  height: 80% !important; */
+}
+
+@media (ming-width: 768px) {
+    .parallax-bg {
+        background-image:
+    }
+}
+
+@media only screen and (max-device-width: 767px) {
+    .parallax-bg {
+        background-attachment: scroll;
+    }
 }
 
 /* Vertical margin, padding */
@@ -1336,14 +1361,41 @@ General Styles - Owlcarousel
   font-size: 16px;
   color: #fff;
 }
-
-#logo {
+/*
+#logo2 {
     height: 40px;
     width: 55px;
     float: left;
     padding-top: 7px;
     padding-left: 20px;
   }
+*/
+
+#logo {
+    height: 38px;
+    width: 210px;
+    float: left;
+    padding-top: 8px;
+}
+
+@media (max-width: 991px) {
+  #logo {
+    height: 35px;
+    width: 170px;
+    float: left;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  #logo {
+    height: 35px;
+    width: 170px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+}
 
 .navbar-custom .nav li > a {
   position: relative;
