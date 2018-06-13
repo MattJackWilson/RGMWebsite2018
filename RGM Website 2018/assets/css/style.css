@@ -168,12 +168,26 @@ a,
   background-size: cover;
 }
 
+
+
 .mod-pic2 {
   position: relative;
-  padding: 150px 0;
+  padding: 165px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+}
+
+@media (max-width: 400px) {
+    .mod-pic2 {
+        padding: 200px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .mod-pic2 {
+        padding: 300px 0;
+    }
 }
 
 .module,
@@ -333,21 +347,30 @@ a,
 
 .parallax-bg {
   background-attachment: fixed;
-  background-size: cover, contain;
-  overflow: auto;
-  min-width: 100% !important;
-  max-height: 50%;
-  /* max-height: 80%;
-  height: 80% !important; */
+  position: relative;
+  background-size: cover;
 }
 
-@media (ming-width: 768px) {
-    .parallax-bg {
-        background-image:
+.parallax-bg-about {
+  background-image: url(../images/headers/about_img_1885.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (max-width: 500px) {
+    .parallax-bg-about {
+        background-image: url('../images/headers/about-header-360.jpg');
     }
 }
 
-@media only screen and (max-device-width: 767px) {
+@media (max-width: 1024px) {
+    .parallax-bg-about {
+        background-image: url('../images/headers/about-header-768.jpg');
+    }
+}
+
+/*
+@media only screen and (max-device-width: 768px) {
     .parallax-bg {
         background-attachment: scroll;
     }

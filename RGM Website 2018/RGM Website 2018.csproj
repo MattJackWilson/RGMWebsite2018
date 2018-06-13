@@ -111,8 +111,9 @@
     <Content Include="assets\images\about\freelance\rich_mayes2.png" />
     <Content Include="assets\images\about\freelance\rich_mayes.png" />
     <Content Include="assets\images\about\team\ag.jpg" />
-    <Content Include="assets\images\about\team\rg.jpg" />
     <Content Include="assets\images\about\team\mw2.jpg" />
+    <Content Include="assets\images\about\team\rg.jpg" />
+    <Content Include="assets\images\about\team\zaki2.jpg" />
     <Content Include="assets\images\about\team\Zaki.jpg" />
     <Content Include="assets\images\Clients\BTS\Malaria No More BTS.png" />
     <Content Include="assets\images\Clients\BTS\Trainline BTS.png" />
@@ -198,6 +199,8 @@
     <Content Include="assets\images\gallery\thumbnail\7%29 RGM Luxury Export - 082.jpeg" />
     <Content Include="assets\images\gallery\thumbnail\8%29 RGM Luxury Export - 029.jpeg" />
     <Content Include="assets\images\gallery\thumbnail\9%29 RGM Luxury Export - 127.jpeg" />
+    <Content Include="assets\images\headers\about-header-360.jpg" />
+    <Content Include="assets\images\headers\about-header-768.jpg" />
     <Content Include="assets\images\headers\about_img_1885.jpeg" />
     <Content Include="assets\images\headers\clients_cw.jpeg" />
     <Content Include="assets\images\headers\contact_img_2542.jpeg" />
@@ -210,49 +213,10 @@
     <Content Include="assets\images\headers\photography-imageedit_4_9193930350.jpg" />
     <Content Include="assets\images\headers\photography_DSC8839.jpeg" />
     <Content Include="assets\images\headers\scores.jpeg" />
-    <Content Include="assets\images\landing\apple-store-icon.png" />
-    <Content Include="assets\images\landing\banner_img.png" />
-    <Content Include="assets\images\landing\feature.png" />
-    <Content Include="assets\images\landing\ipad.png" />
-    <Content Include="assets\images\landing\iPhone-6-Mockup_landscape-d6dd4e9f560128788d91804cd90a80ddbd8f14f2964b63fc056601cc11a8a9e4.png" />
-    <Content Include="assets\images\landing\iphone-mockup.png" />
-    <Content Include="assets\images\landing\landing_bg.jpg" />
-    <Content Include="assets\images\landing\landscap-mockup.jpg" />
-    <Content Include="assets\images\landing\playstore-icon.png" />
-    <Content Include="assets\images\landing\screenshot1.jpg" />
-    <Content Include="assets\images\landing\screenshot2.jpg" />
-    <Content Include="assets\images\landing\screenshot3.jpg" />
-    <Content Include="assets\images\landing\screenshot4.jpg" />
-    <Content Include="assets\images\landing\screenshot5.jpg" />
-    <Content Include="assets\images\landing\screenshot6.jpg" />
-    <Content Include="assets\images\landing\screenshot_bg.png" />
-    <Content Include="assets\images\landing\why_choose.png" />
-    <Content Include="assets\images\landing\why_choose_bg.png" />
-    <Content Include="assets\images\landing\windows-store-icon.png" />
     <Content Include="assets\images\logo\GC Horizontal on Dark.png" />
     <Content Include="assets\images\logo\GC Logo Full Gray.png" />
     <Content Include="assets\images\logo\GC Marque Only Gray.png" />
     <Content Include="assets\images\logo\rgm-white.png" />
-    <Content Include="assets\images\portfolio\grid-portfolio1.jpg" />
-    <Content Include="assets\images\portfolio\grid-portfolio2.jpg" />
-    <Content Include="assets\images\portfolio\grid-portfolio3.jpg" />
-    <Content Include="assets\images\portfolio\grid-portfolio4.jpg" />
-    <Content Include="assets\images\portfolio\grid-portfolio5.jpg" />
-    <Content Include="assets\images\portfolio\grid-portfolio6.jpg" />
-    <Content Include="assets\images\portfolio\grid-portfolio7.jpg" />
-    <Content Include="assets\images\portfolio\grid-portfolio8.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio1.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio10.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio11.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio2.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio3.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio4.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio5.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio6.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio7.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio8.jpg" />
-    <Content Include="assets\images\portfolio\masonry-portfolio9.jpg" />
-    <Content Include="assets\images\portfolio\portfolio_header_bg.jpg" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\plugins.js" />
     <Content Include="assets\lib\animate.css\animate.css" />
@@ -397,7 +361,6 @@
     <Content Include="assets\lib\skrollr\src\skrollr.js" />
     <Content Include="assets\lib\smoothscroll.js" />
     <Content Include="assets\lib\wow\dist\wow.js" />
-    <Content Include="assets\videos\Chelsea Waterfront - 30 sec _v1.mp4" />
     <Content Include="contact2.html" />
     <Content Include="gallery_col_4.html" />
     <Content Include="index.html" />
@@ -586,7 +549,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="assets\videos\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
