@@ -110,8 +110,10 @@
     <Content Include="assets\images\about\freelance\james_blackburn.png" />
     <Content Include="assets\images\about\freelance\rich_mayes2.png" />
     <Content Include="assets\images\about\freelance\rich_mayes.png" />
+    <Content Include="assets\images\about\team\mw.jpg" />
     <Content Include="assets\images\about\team\ag.jpg" />
     <Content Include="assets\images\about\team\mw2.jpg" />
+    <Content Include="assets\images\about\team\rg crop 2.jpg" />
     <Content Include="assets\images\about\team\rg.jpg" />
     <Content Include="assets\images\about\team\zaki2.jpg" />
     <Content Include="assets\images\about\team\Zaki.jpg" />
@@ -201,6 +203,7 @@
     <Content Include="assets\images\gallery\thumbnail\9%29 RGM Luxury Export - 127.jpeg" />
     <Content Include="assets\images\headers\about-header-360.jpg" />
     <Content Include="assets\images\headers\about-header-768.jpg" />
+    <Content Include="assets\images\headers\About-mobile.jpg" />
     <Content Include="assets\images\headers\about_img_1885.jpeg" />
     <Content Include="assets\images\headers\clients_cw.jpeg" />
     <Content Include="assets\images\headers\contact_img_2542.jpeg" />
@@ -209,14 +212,17 @@
     <Content Include="assets\images\headers\creative-imageedit_8_6603103447.jpg" />
     <Content Include="assets\images\headers\creativehd-img_2672.jpg" />
     <Content Include="assets\images\headers\Photography -Panakeia 2.jpg" />
+    <Content Include="assets\images\headers\photography -panakeia-1200.jpg" />
+    <Content Include="assets\images\headers\photography -panakeia-768.jpg" />
     <Content Include="assets\images\headers\Photography -Panakeia.jpg" />
     <Content Include="assets\images\headers\photography-imageedit_4_9193930350.jpg" />
-    <Content Include="assets\images\headers\photography_DSC8839.jpeg" />
+    <Content Include="assets\images\headers\Photography-mobile.jpg" />
     <Content Include="assets\images\headers\scores.jpeg" />
     <Content Include="assets\images\logo\GC Horizontal on Dark.png" />
     <Content Include="assets\images\logo\GC Logo Full Gray.png" />
     <Content Include="assets\images\logo\GC Marque Only Gray.png" />
     <Content Include="assets\images\logo\rgm-white.png" />
+    <Content Include="assets\images\video\homepage-poster.png" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\plugins.js" />
     <Content Include="assets\lib\animate.css\animate.css" />

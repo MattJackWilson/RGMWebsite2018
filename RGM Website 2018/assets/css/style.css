@@ -162,7 +162,7 @@ a,
 
 .mod-pic {
   position: relative;
-  padding: 120px 0;
+  padding: 150px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -172,21 +172,33 @@ a,
 
 .mod-pic2 {
   position: relative;
-  padding: 165px 0;
+  padding: 195px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .mod-pic2 {
         padding: 200px 0;
     }
 }
 
-@media (max-width: 500px) {
+@media screen and (min-width: 2200px) {
     .mod-pic2 {
-        padding: 300px 0;
+        padding: 450px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mod-pic {
+        padding: 190px 0;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    .mod-pic {
+        padding: 450px 0;
     }
 }
 
@@ -357,15 +369,39 @@ a,
   background-size: cover;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .parallax-bg-about {
         background-image: url('../images/headers/about-header-360.jpg');
     }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .parallax-bg-about {
         background-image: url('../images/headers/about-header-768.jpg');
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .parallax-bg-photo {
+        background-image: url(../images/headers/Photography-mobile.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .parallax-bg-photo {
+        background-image: url('../images/headers/photography -panakeia-768.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .parallax-bg-photo {
+        background-attachment: fixed;
+        background-size: cover;
+        background-image: url('../images/headers/Photography -Panakeia 2.jpg');
     }
 }
 
@@ -967,9 +1003,7 @@ blockquote {
 
 .film-text {
     text-align: left;
-    font-size:15px;
-    font-family: 'Avenir LT Std', sans-serif;
-    color: #000;
+  /*  font-size:15px; */
 }
 
 
